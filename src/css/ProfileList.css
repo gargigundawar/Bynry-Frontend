@@ -1,0 +1,43 @@
+/* 
+  .profile-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px; /* Add padding to create space around the profile cards */
+  
+
+
+
+/* ProfileList.css */
+
+.profile-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Three cards per row, with a minimum width of 300px */
+  gap: 20px; /* Adjust the gap between cards as needed */
+  justify-content: center; /* Center the grid */
+}
+
+.profile-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.profile-photo {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.profile-details {
+  padding: 20px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 10;
+}

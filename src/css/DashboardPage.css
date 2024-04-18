@@ -1,0 +1,133 @@
+/* DashboardPage.css */
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.login-section {
+  background-color: rgba(240, 240, 240, 0.9); /* Transparent background */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center; /* Center the content */
+  margin-top: 80px;
+}
+
+.login-section h2 {
+  margin-top: 0;
+}
+
+.login-section form {
+  margin-top: 20px; /* Add space between form and title */
+}
+
+.login-section label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-section input[type="password"] {
+  width: calc(100% - 20px); /* Calculate input width */
+  max-width: 300px; /* Set maximum width */
+  padding: 8px;
+  margin-bottom: 10px; /* Add space between input and button */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-section button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.login-section button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.dashboard-section {
+  margin-top: 20px;
+}
+
+.dashboard-section h2 {
+  margin-top: 0;
+}
+
+.dashboard-section button {
+  margin-bottom: 10px;
+}
+
+.profile-form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.profile-form div {
+  margin-bottom: 10px;
+}
+
+.profile-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.profile-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.profile-form button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-form button:hover {
+  background-color: #0056b3;
+}
+
+.profile-list {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-list li {
+  margin-bottom: 20px;
+}
+
+.profile-list h4 {
+  margin-top: 0;
+}
+
+.profile-list p {
+  margin-bottom: 10px;
+}
+
+.profile-list button {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-list button:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+nav {
+  background-color: #2980b9; /* Change background color */
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; /* Change text color */
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center; /* Align text and icon vertically */
+  transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.nav-link:hover {
+  background-color: #1a5276; /* Darken background color on hover */
+}
+
+.nav-link svg {
+  margin-right: 5px; /* Add margin between icon and text */
+}
+
+.nav-link-text {
+  margin-left: 5px; /* Add margin between icon and text */
+}
